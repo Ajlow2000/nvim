@@ -1,3 +1,4 @@
+local profile = vim.env.profile
+if profile == nil then profile = "ajlow" end
 
-vim.opt.number = true                           -- set numbered lines
-vim.opt.relativenumber = true                   -- set relative numbered lines
+require(profile)
