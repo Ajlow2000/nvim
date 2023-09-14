@@ -21,6 +21,11 @@ return {
         lspconfig.lua_ls.setup({
             settings = {
                 Lua = {
+                    diagnostic = {
+                        globals = { "vim" },
+                        undefined_global = false, -- remove this from diag!
+                        missing_parameters = false,
+                    },
                     completion = {
                         callSnippet = "Replace"
                     },
