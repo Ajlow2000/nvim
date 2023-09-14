@@ -8,8 +8,6 @@ require("ajlow.std.keymaps")
 require("ajlow.std.autocommands")
 require("ajlow.lazy")
 
-require("ajlow.experimental.git-menu")
-
 -- TODO: telscope ui select
 
 -- TODO: LSP Stuff

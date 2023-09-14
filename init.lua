@@ -2,7 +2,7 @@ PROFILE = vim.env.profile
 if PROFILE == nil then PROFILE = "ajlow" end
 
 -- Quick print table (debugging)
-function print_table(t, s)
+function Print_table(t, s)
     for k, v in pairs(t) do
         local kfmt = '["' .. tostring(k) ..'"]'
         if type(k) ~= 'string' then
@@ -10,7 +10,7 @@ function print_table(t, s)
         end
         local vfmt = '"'.. tostring(v) ..'"'
         if type(v) == 'table' then
-            tprint(v, (s or '')..kfmt)
+            Print_table(v, (s or '')..kfmt)
         else
             if type(v) ~= 'string' then
                 vfmt = tostring(v)
