@@ -1,8 +1,8 @@
 return {
     "neovim/nvim-lspconfig",
-    dependencies = {
-        "folke/neodev.nvim",
-    },
+    -- dependencies = {
+    --     "folke/neodev.nvim",
+    -- },
     config = function()
         -- IMPORTANT: make sure to setup neodev BEFORE lspconfig
         -- require("neodev").setup({
