@@ -14,6 +14,7 @@ return {
             sections = {
                 lualine_c = {
                     -- 'lsp_progress' -- TODO  https://github.com/arkav/lualine-lsp-progress
+                    "filename",
                 },
                 lualine_x = {
                     {
