@@ -8,13 +8,7 @@ require("ajlow.std.keymaps")
 require("ajlow.std.autocommands")
 require("ajlow.lazy")
 
--- TODO: telscope ui select
-
--- TODO: LSP Stuff
--- TODO: Neodev - https://github.com/folke/neodev.nvim
-
---
--- TODO: Which key/ Debugging
--- TODO: zen mode/twighlight
+-- TODO: Debugging
+-- TODO: Encryption
 
 -- TODO: https://github.com/rmagatti/auto-session
