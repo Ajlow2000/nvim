@@ -4,9 +4,9 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 require("ajlow.std.options")
-require("ajlow.std.keymaps")
 require("ajlow.std.autocommands")
 require("ajlow.lazy")
+require("ajlow.std.keymaps")
 
 -- TODO: Debugging
 -- TODO: Encryption

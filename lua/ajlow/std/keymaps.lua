@@ -1,17 +1,3 @@
--- FIXME: Horizontal Scroll not working
-vim.keymap.set(
-    "n",
-    "<C-l>",
-    "20zl",
-    { silent = false, desc = "Horizontal Scroll"}
-)
-
-vim.keymap.set(
-    "n",
-    "<C-h>",
-    "20zh",
-    { silent = false, desc = "Horizontal Scroll"}
-)
 
 vim.keymap.set(
     "n",
@@ -25,6 +11,20 @@ vim.keymap.set(
         end
     end,
     { desc = "Toggle Line 80 Indicator on and off" }
+)
+
+vim.keymap.set(
+    "n",
+    "<C-l>",
+    "20zl",
+    {  desc = "Horizontal Scroll Right" }
+)
+
+vim.keymap.set(
+    "n",
+    "<C-h>",
+    "20zh",
+    { silent = false, desc = "Horizontal Scroll Left" }
 )
 
 vim.keymap.set(
